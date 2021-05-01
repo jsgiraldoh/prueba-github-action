@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Step Hola Mundo
         id: hello
-        uses: jsgiraldoh/hello-world-docker-action@v4
+        uses: jsgiraldoh/hello-world-docker-action@v5
         with:
           who-to-greet: "jsgiraldoh"
       - name: Usar el output
