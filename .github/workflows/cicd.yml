@@ -13,4 +13,4 @@ jobs:
         with:
           who-to-greet: "jsgiraldoh"
       - name: Usar el output
-      run: echo "La fecha fue ${{ steps.hello.outputs.time }}"
+        run: echo "La fecha fue ${{ steps.hello.outputs.time }}"
